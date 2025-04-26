@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 1rem;
+    text-align: center;
+    background-color: rgb(247, 199, 207);
+}
+
+.firma {
+    font-weight: 700;
+}

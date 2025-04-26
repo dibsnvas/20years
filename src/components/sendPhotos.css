@@ -1,0 +1,38 @@
+.fotos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    margin-top: -70px;
+    min-height: 70vh;
+    padding: 3rem 1rem;
+    background-color: white;
+    overflow: hidden;
+}
+
+h3 {
+    max-width: 70%;
+}
+
+.visuals {
+    position: relative;
+}
+
+/* sendPhotos.css */
+.btn.fotos-btn {               /* добавили .btn перед .fotos-btn */
+    background:rgb(247, 199, 207);
+    border:none;
+    color:#1f1f1f;
+    padding:.6rem 2.2rem;
+    font-weight:600;
+    border-radius:10px;
+  }
+  
+  .btn.fotos-btn:hover,
+  .btn.fotos-btn:focus {
+    background:#ff8ac4;
+    color:#1f1f1f;
+  }
+  

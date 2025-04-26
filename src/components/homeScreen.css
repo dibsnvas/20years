@@ -1,0 +1,139 @@
+.homeScreen {
+    min-height: 100vh;
+    background: rgb(247, 199, 207);
+    background: linear-gradient(180deg, rgb(247, 199, 207) 0%, rgba(255,255,255,1) 95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    font-size: 1.1rem;
+    color: #1f1f1f;
+    gap: 2rem;
+}
+
+.logo-mis-15 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0 2rem 0;
+    position: relative;
+}
+
+.logo-mis-15 img {
+    max-width: 250px;
+    z-index: 999;
+}
+
+.circle {
+    width: 198px;
+    height: 198px;
+    background-color: rgb(247, 199, 207);
+    position: absolute;
+    border-radius: 50%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    padding: 0 0 2rem 0;
+}
+
+.fechayhora {      
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  
+
+.btn-mapa {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(247, 199, 207);
+    padding: .5rem;
+    color: #1f1f1f !important;
+    border-radius: 10px;
+    font-size: .9rem;
+}
+
+.arrow-down {
+    font-size: 2rem;
+    color: #11111170;
+}
+
+/*  COUNTDOWN  */
+
+.countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 199, 207);
+    padding: 1.4rem 0 .8rem 0;
+    width: 100vw;
+
+}
+
+.numbers {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #1f1f1f99;
+}
+
+.align {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    line-height: .8;
+    color: #1f1f1f99;
+}
+/* --------- счётчик по умолчанию (десктоп) --------- */
+/* -------- счётчик: одна строка на любых экранах -------- */
+.countdown-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 столбца всегда */
+    justify-items: center;
+    row-gap: .3rem;           /* расстояние между цифрами и подписью */
+    column-gap: .8rem;        /* расстояние между столбцами */
+    width: 100%;              /* растягиваемся на всю ширину блока */
+    max-width: 420px;         /* но не больше 420 px, чтобы на десктопе не расползалось */
+  }
+  
+  /* цифры */
+  .countdown-grid .num {
+    font: 800 1.6rem/1 'Roboto Mono', monospace;
+  }
+  
+  /* подписи */
+  .countdown-grid .lab {
+    font-size: .95rem;
+    letter-spacing: .2px;
+  }
+  
+  /* --- если нужно чуть уменьшить шрифт на очень маленьких экранах --- */
+  @media (max-width: 360px) {
+    .countdown-grid .num  { font-size: 1.4rem; }
+    .countdown-grid .lab  { font-size: .85rem; }
+  }
+  
+/* акцент для логотипа и важных заголовков */
+.logo-mis-15 img,
+.guest-name,          /* Dear Name❤️ */
+h1, h2 {
+  font-family: 'DM Serif Display', serif;
+  letter-spacing: .5px;
+}
+
+/* кнопки чуть жирнее */
+.btn-mapa,
+.fotos-btn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
