@@ -20,8 +20,8 @@ const HomeScreen = () => {
           <p>13 | 05 | 2025 </p>
           <p>7 PM</p>
         </div>
-        <p>Astra Grand Cafe</p>
-        <a href="https://go.2gis.com/MREzB" target={`_blank`} className="btn-mapa">Смотреть карту</a>        
+        <p>Libera Restaurant & Terrace</p>
+        <a href="https://go.2gis.com/3FUJp" target={`_blank`} className="btn-mapa">Смотреть карту</a>        
       </div>
       <Clock deadline="may, 13, 2025" />
       <div className="arrow-down">
