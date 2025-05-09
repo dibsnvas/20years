@@ -10,7 +10,7 @@ const SendPhotos = () => (
     {/* variant="light" → Bootstrap не задаёт свой синий фон */}
     <Button
   className="fotos-btn"
-  href="https://drive.google.com/drive/folders/…"
+  href="https://drive.google.com/drive/folders/1gWYJvQp6KcCPpyKzEo7cRpaz22ZnOBqY?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
 >
